@@ -6,24 +6,34 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
-        <h1 class="center-heading">Welcome to My Portfolio!</h1>
-        <h1>Guidance</h1>
-        <!--Probably want a home, about, projects, and contact section, more will be added later if needed (experience/education?)-->
-        <ul>
-            <li>Home</li>
-            <li>About Me</li>
-            <li>Work/Education</li>
-            <li>Projects</li>
-            <li>Contact</li>
-        </ul>
-        <h2>About Me</h2>
-        <p>This will be content about myself</p>
-        <h2>Work/Education</h2>
-        <p>This will be content about my work experience and my education</p>
-        <h2>Projects</h2>
-        <p>This will be content involving the projects I have worked on</p>
-        <h2>Contact</h2>
-        <p>This will be methods of contact for me</p>
-    <script src="script.js"></script>
+        <div id="home">
+            <h1 class="center-heading">Welcome to My Portfolio!</h1>
+            <h1>Guidance</h1>
+            <!--Probably want a home, about, projects, and contact section, more will be added later if needed (experience/education?)-->
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about-me">About Me</a></li>
+                <li><a href="experience">Work/Education</a></li>
+                <li><a href="projects">Projects</a></li>
+                <li><a href="contact">Contact</a></li>
+            </ul>
+            <div id="about-me">
+                <h2>About Me</h2>
+                <p>This will be content about myself</p>
+            </div>
+            <div id="experience">
+                <h2>Work/Education</h2>
+                <p>This will be content about my work experience and my education</p>
+            </div>
+            <div id="projects">
+                <h2>Projects</h2>
+                <p>This will be content involving the projects I have worked on</p>
+            </div>
+            <div id="contact">
+                <h2>Contact</h2>
+                <p>This will be methods of contact for me</p>
+            </div>
+            <script src="script.js"></script>
+        </div>
     </body>
 </html>
