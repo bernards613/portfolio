@@ -15,10 +15,20 @@ h1 {
     line-height: 44px;
 }
 h2 {
-    color: #fff
+    color: #fff;
+    font-family: "Century Gothic"; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 500; 
+    line-height: 44px;
 }
 p {
-    color: #fff
+    color: #fff;
+    font-family: "Century Gothic"; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 400; 
+    line-height: 44px;
 }
 
 .center-heading {
