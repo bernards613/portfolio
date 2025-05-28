@@ -5,6 +5,14 @@ body {
   margin: 0;
   padding: 0;
 }
+h1 { 
+    font-family: "Century Gothic"; 
+    font-size: 40px; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 700; 
+    line-height: 44px;
+}
 
 .center-heading {
     text-align: center;
