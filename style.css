@@ -17,40 +17,37 @@ h1 {
 }
 
 h2 {
-    color: #fff;
-    font-family: "Century Gothic"; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 500; 
-    line-height: 44px;
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia;
 }
 
 h3 {
-    color: #fff;
-    font-family: "Century Gothic"; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 500; 
-    line-height: 44px;
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia;
 }
 
 h4 {
-    color: #fff;
-    font-family: "Century Gothic"; 
-    font-style: normal; 
-    font-variant: normal; 
-    font-weight: 500; 
-    line-height: 44px;
+    color: #FFF;
+    font-size: 2em;
+    padding-top: 100px;
+    width: 100%;
+    font-family: Georgia;
 }
 
 p {
-  color: aliceblue;
-  line-height: 1.3em;
-  text-align: left;
-  width: 100%;
-  font-family: Helvetica;
-  font-size: 18px;
-  font-weight: bold;
+    color: aliceblue;
+    line-height: 1.3em;
+    text-align: left;
+    width: 100%;
+    font-family: Helvetica;
+    font-size: 18px;
+    font-weight: bold;
 }
 
 a {
