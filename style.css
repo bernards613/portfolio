@@ -9,7 +9,7 @@ body {
 h1 { 
     color: #fff;
     font-family: "Century Gothic"; 
-    font-size: 40px; 
+    font-size: 70px; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 700; 
@@ -45,7 +45,7 @@ h4 {
 
 p {
     color: #fff;
-    font-family: "Century Gothic"; 
+    font-family: Helvetica; 
     font-style: normal; 
     font-variant: normal; 
     font-weight: 400; 
