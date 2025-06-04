@@ -25,6 +25,24 @@ h2 {
     line-height: 44px;
 }
 
+h3 {
+    color: #fff;
+    font-family: "Century Gothic"; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 500; 
+    line-height: 44px;
+}
+
+h4 {
+    color: #fff;
+    font-family: "Century Gothic"; 
+    font-style: normal; 
+    font-variant: normal; 
+    font-weight: 500; 
+    line-height: 44px;
+}
+
 p {
     color: #fff;
     font-family: "Century Gothic"; 
