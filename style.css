@@ -118,24 +118,24 @@ h1 {
 
 h2 {
     color: #FFF;
-    font-size: 2em;
-    padding-top: 20px;
+    font-size: 35px;
+    padding-top: 10px;
     width: 100%;
     font-family: Georgia;
 }
 
 h3 {
     color: #FFF;
-    padding-top: 50px;
-    font-size: 35px;
+    padding-top: 30px;
+    font-size: 30px;
     width: 100%;
     font-family: Georgia;
 }
 
 h4 {
     color: #FFF;
-    padding-top: 50px;
-    font-size: 30px;
+    padding-top: 30px;
+    font-size: 25px;
     width: 100%;
     font-family: Georgia;
 }
