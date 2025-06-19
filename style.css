@@ -37,24 +37,29 @@ html {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 40px; /* space between items */
-  flex-wrap: wrap; /* allows it to wrap on small screens */
+  gap: 40px;
+  flex-wrap: wrap;
   margin-top: 20px;
   font-size: 18px;
   color: #fff;
 }
 
 .contact-links a {
-  color: #fff;
-  text-decoration: none;
-  font-family: "Century Gothic";
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 10px;
+  text-decoration: none;
+  color: #fff;
+  font-family: "Century Gothic";
+  white-space: nowrap;
 }
 
 .contact-links a:hover {
   text-decoration: underline;
+}
+
+.contact-links i {
+  font-size: 1.2em;
 }
 
 .contact-links i {
@@ -145,7 +150,6 @@ a {
     font-style: normal; 
     font-variant: normal; 
     font-weight: 500; 
-    line-height: 44px;
     text-decoration: none;
 }
 
