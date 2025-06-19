@@ -44,16 +44,13 @@ html {
   color: #fff;
 }
 
-.contact-links p {
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-
 .contact-links a {
   color: #fff;
   text-decoration: none;
   font-family: "Century Gothic";
+  display: flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .contact-links a:hover {
