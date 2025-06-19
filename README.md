@@ -5,6 +5,7 @@ Welcome to my personal website! This project is built with HTML, CSS, and JavaSc
 ## Features
 - Home
 - About Me
+- Experience
 - Projects
 - Contact
 
