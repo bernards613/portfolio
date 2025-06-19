@@ -32,7 +32,7 @@
 .contact a{
   display: flex;
   justify-content: center;
-  gap: 30px;
+  gap: 50px;
   padding: 20px 0;
   flex-wrap: wrap;
   position: relative;
