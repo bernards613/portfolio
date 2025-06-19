@@ -84,6 +84,7 @@ body {
 }
 
 #experience {
+    list-style-position: inside;
     text-align: right;
     padding-right: 10px;
 }
