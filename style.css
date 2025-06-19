@@ -1,13 +1,18 @@
-.header a{
-  top: 0;
-  width: 100%;
+.header {
+  display: flex;
+  justify-content: center;
+  gap: 30px; /* space between nav links */
   padding: 20px 0;
-  font-size: 20px;
-  text-align: center;
+  flex-wrap: wrap; /* optional: wraps nicely on small screens */
+}
+
+.header a {
   position: relative;
   text-decoration: none;
-  margin: 0 15px;
-  display: inline-block;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Century Gothic";
+  font-weight: 500;
   transition: color 0.3s ease;
 }
 
@@ -15,11 +20,11 @@
   content: '';
   position: absolute;
   left: 50%;
-  bottom: 0;
+  bottom: -2px;
   transform: translateX(-50%) scaleX(0);
   transform-origin: center;
-  width: 100%;
   height: 2px;
+  width: 100%;
   background-color: #fff;
   transition: transform 0.3s ease;
 }
