@@ -1,9 +1,9 @@
 .header {
   display: flex;
   justify-content: center;
-  gap: 30px; /* space between nav links */
+  gap: 30px;
   padding: 20px 0;
-  flex-wrap: wrap; /* optional: wraps nicely on small screens */
+  flex-wrap: wrap;
 }
 
 .header a {
@@ -17,6 +17,31 @@
 }
 
 .header a::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  bottom: -2px;
+  transform: translateX(-50%) scaleX(0);
+  transform-origin: center;
+  height: 2px;
+  width: 100%;
+  background-color: #fff;
+  transition: transform 0.3s ease;
+}
+
+.contact a{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 20px 0;
+  flex-wrap: wrap;
+  position: relative;
+  text-decoration: none;
+  font-size: 20px;
+  color: #fff;
+  font-family: "Century Gothic";
+  font-weight: 500;
+  transition: color 0.3s ease;
   content: '';
   position: absolute;
   left: 50%;
@@ -116,7 +141,6 @@ a {
 
 ul {
     color: #fff;
-    text-align: center;
 }
 
 .center-heading {
