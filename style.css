@@ -91,6 +91,10 @@ body {
     padding-left: 600px;
 }
 
+#experience ul li {
+    margin-bottom: 10px;
+}
+
 #projects {
     text-align: left;
     padding-left: 10px;
@@ -168,7 +172,6 @@ ul {
     font-weight: bold;
     font-size: 18px;
     text-decoration: none;
-    padding-bottom: 10px;
 }
 
 .center-heading {
