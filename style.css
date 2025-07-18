@@ -84,6 +84,10 @@ body {
   padding-right: 750px;
 }
 
+.profile {
+  text-align: right;
+}
+
 #experience {
   text-align: right;
   max-width: 800px;
