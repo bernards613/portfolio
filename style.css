@@ -75,12 +75,23 @@ html {
     align-items: center;
     gap: 40px;
     flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 .about-text {
     flex: 1;
     min-width: 250px;
+    max-width: 600px;
 }
+
+.about-image {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex: 1;
+    min-width: 300px;
+    flex-shring: 0;
 
 .profile {
     width: 300px;
@@ -99,9 +110,7 @@ body {
 }
 
 #about-me {
-  text-align: left;
-  padding-left: 10px;
-  padding-right: 750px;
+  padding: 30px;
 }
 
 #experience {
