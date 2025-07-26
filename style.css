@@ -116,7 +116,8 @@ body {
 #experience {
   list-style-position: inside;
   text-align: left;
-  padding-right: 750px;
+  min-width: 250px;
+  max-width: 600px;
 }
 
 #experience ul li {
@@ -125,8 +126,8 @@ body {
 
 #projects {
   text-align: right;
-  padding-right: 10px;
-  padding-left: 750px;
+  min-width: 250px;
+  max-width: 600px;
 }
 
 #contact {
