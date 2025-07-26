@@ -69,6 +69,26 @@ html {
   transform: translateX(-50%) scaleX(1);
 }
 
+.about-containor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.about-text {
+    flex: 1;
+    min-width: 250px;
+}
+
+.profile {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10px;
+    
+
 body {
   background: #141E30;
   background: -webkit-linear-gradient(-45deg, #35577D, #141E30);
@@ -82,10 +102,6 @@ body {
   text-align: left;
   padding-left: 10px;
   padding-right: 750px;
-}
-
-.profile {
-  text-align: right;
 }
 
 #experience {
