@@ -69,7 +69,7 @@ html {
   transform: translateX(-50%) scaleX(1);
 }
 
-.about-containor {
+.about-container {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +87,7 @@ html {
     height: 300px;
     object-fit: cover;
     border-radius: 10px;
-    
+}
 
 body {
   background: #141E30;
