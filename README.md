@@ -1,6 +1,6 @@
 # My Personal Portfolio
 
-Welcome to my personal website! This project is built with HTML, CSS, and JavaScript.
+Welcome to my portfolio website! This project is built with HTML, CSS, and JavaScript.
 
 ## Features
 - Home
