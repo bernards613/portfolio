@@ -114,20 +114,19 @@ body {
 }
 
 #experience {
-  list-style-position: inside;
-  text-align: left;
-  min-width: 250px;
   max-width: 600px;
+  margin-right: auto;
+  text-align: left;
+}
+
+#projects {
+  max-width: 600px;
+  margin-left: auto;
+  text-align: right;
 }
 
 #experience ul li {
   margin-bottom: 10px;
-}
-
-#projects {
-  text-align: right;
-  min-width: 250px;
-  max-width: 600px;
 }
 
 #contact {
