@@ -5,7 +5,7 @@ Welcome to my portfolio website! This project is built with HTML, CSS, and JavaS
 ## Features
 - Home
 - About Me
-- Experience
+- Work Experience
 - Projects
 - Contact
 
