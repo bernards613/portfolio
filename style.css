@@ -125,6 +125,29 @@ body {
   text-align: right;
 }
 
+.project-card {
+  background: rgba(255,255,255,0.06);
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 30px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.35);
+}
+
+.project-card h3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.project-card i {
+  font-size: 20px;
+}
+
 #experience ul li {
   margin-bottom: 10px;
 }
