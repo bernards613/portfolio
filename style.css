@@ -114,15 +114,21 @@ body {
 }
 
 #experience {
-  max-width: 600px;
-  margin-right: auto;
   text-align: left;
 }
 
 #projects {
+  text-align: right;
+}
+
+.content-left {
+  max-width: 600px;
+  margin-right: auto;
+}
+
+.content-right {
   max-width: 600px;
   margin-left: auto;
-  text-align: right;
 }
 
 .project-card {
